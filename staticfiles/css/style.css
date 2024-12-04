@@ -1,0 +1,55 @@
+#map {
+    height: 100vh;  /* La carte prend toute la hauteur de la fenêtre */
+    width: calc(100% - 300px); /* La carte prend toute la largeur sauf la barre latérale */
+    border-top-left-radius: 15px; /* Arrondi en haut à gauche */
+    border-bottom-left-radius: 15px; /* Arrondi en bas à gauche */
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.2); /* Ombre à droite de la carte */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Barre latérale */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+/* Design de la section avec fond */
+.wow-design {
+    background-color: #f4f4f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Couleur de fond de la page */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Style des titres */
+h1, h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: #095c6c;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+
+/* Espacement entre les sections */
+.section {
+    margin-top: 40px;
+}
